@@ -28,4 +28,4 @@ With this solution, we can decide which hosts are forwarded to the maintenance p
 
 ## Implementation
 
-We designed the html-page to be as simple as possible, this includes inline css and so on. The webserver which holds the page pulls the html-file from github in an intervale to keep it up to date. Changes to the html only are made with git, so that we don't need to connect to the webserver every time we want to change a maintenance-host.
+We designed the html-page to be as simple as possible, this includes inline css and so on. The website is hosted at cloudflare with an automatic deployment against this git repo.
